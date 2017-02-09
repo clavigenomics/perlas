@@ -22,7 +22,7 @@ Para poner en fasta el Pseudocore
 `mkdir GENES`  
 `mv *[0-9] GENES`  
 `cd GENES`  
-`perl -p -i -e 's/^/>/' [0-9]*
+`perl -p -i -e 's/^/>/' [0-9]*  
 perl -p -i -e 's/\t/\n/' [0-9]*`
 
 Para Alinear
